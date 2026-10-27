@@ -1,0 +1,243 @@
+
+/* min-width: 1025px */
+
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 15px 4%;
+    }
+
+    .navlist {
+        gap: 20px;
+    }
+
+    .Herocontent h1 {
+        font-size: 2.8rem;
+    }
+
+    .navbar {
+        width: 80%;
+    }
+
+    .container {
+        max-width: 1400px;
+    }
+
+    .section-2 .main-heading-section-2 h4 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .header {
+        min-height: 6rem;
+        padding: 0 15px;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .burger {
+        display: block;
+        z-index: 1000;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 100vh;
+        background: #123;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        transform: translateX(100%);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: all 0.4s linear;
+        z-index: 1000;
+    }
+
+    .navlist {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .active .navbar {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active .burger .fa-solid {
+        display: block;
+    }
+
+    .active .burger .line {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .box2 {
+        margin-top: 30px;
+    }
+
+    .box3 {
+        margin-top: 30px;
+    }
+
+    .Herocontent {
+        padding: 65px 30px;
+        margin-left: 20px auto;
+    }
+
+    .section-1 {
+        height: 80vh;
+    }
+
+    .bgcolor {
+        height: 80vh;
+    }
+
+    .Herocontent h1 {
+        font-size: 2rem;
+    }
+
+    .section-2 .main-heading-section-2 h4 {
+        font-size: 2rem;
+    }
+
+    section-2 .main-heading-section-2 p {
+        max-width: 300px;
+    }
+
+
+    /* SECTION 3 - CONTACT RESPONSIVE */
+
+    .section-3 {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        height: auto;
+        margin: 0 auto;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 30px;
+        box-sizing: border-box;
+    }
+
+    /* Left Side Contact */
+
+    .left-side-contact {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+
+    .left-side-contact h5 {
+        font-size: 0.9rem;
+    }
+
+    .left-side-contact h1 {
+        font-size: 2rem;
+        line-height: 1.3;
+        overflow-wrap: break-word;
+    }
+
+    .left-side-contact > p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 1rem;
+        line-height: 1.7;
+        padding-top: 10px;
+        overflow-wrap: break-word;
+    }
+
+    /* Contact Information Items */
+
+    .contact-content-1 {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .contact-content-1 i {
+        font-size: 1.3rem;
+        flex-shrink: 0;
+    }
+
+    .contact-content-1 .add-1 {
+        flex: 1;
+        min-width: 0;
+        padding-left: 0;
+        line-height: 1.5;
+    }
+
+    .contact-content-1 .add-1 h2 {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        overflow-wrap: break-word;
+    }
+
+    .contact-content-1 .add-1 p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        padding-top: 5px;
+        overflow-wrap: anywhere;
+    }
+
+    /* Right Side Contact Form */
+
+    .right-side-contact {
+        width: 100%;
+        max-width: 600px;
+        min-width: 0;
+        align-self: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .right-side-contact form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .right-side-contact input,
+    .right-side-contact select,
+    .right-side-contact textarea {
+        width: 100%;
+        min-width: 0;
+        padding: 12px 14px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .right-side-contact textarea {
+        min-height: 120px;
+    }
+
+    .right-side-contact button {
+        max-width: 100%;
+        padding: 12px 22px;
+    }
+}
