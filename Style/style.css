@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -297,6 +296,7 @@ body {
 .section-2 .main-heading-section-2 p {
     font-family: 'Montserrat', sans-serif;
     color: #053358;
+    max-width: 1300px;
     text-align: center;
     padding-top: 10px;
 }
@@ -484,6 +484,11 @@ body {
     background-color: #333;
 }
 
+
+
+
+
+
 /* section -3 start */
 
 .section-3 {
@@ -522,7 +527,7 @@ body {
     overflow-wrap: break-word;
 }
 
-.left-side-contact > p {
+.left-side-contact>p {
     width: 100%;
     max-width: 600px;
     font-size: 1rem;
@@ -631,4 +636,98 @@ body {
 
 .right-side-contact button:hover {
     background-color: #45005b;
+}
+
+
+/* section 4 start  */
+
+.section-4 {
+    width: 100%;
+    max-width: 1400px;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+
+
+}
+
+.heading-destination {
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    max-width: 1400px;
+}
+
+.heading-destination h6 {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+
+}
+
+
+.heading-destination h1 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    padding-top: 10px;
+
+}
+
+.heading-destination p {
+
+    padding-top: 20px;
+    font-size: 1.1em;
+}
+
+
+.Destination-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    min-height: auto;
+    flex-wrap: wrap;
+
+}
+
+
+.destination {
+    max-width: 250px;
+    height: 350px;
+    box-shadow: 0rem 0rem 0.2rem #555;
+    border-radius: 10px;
+    margin-top: 30px;
+
+
+}
+
+.destination img {
+    width: 100%;
+    max-width: 300px;
+    height: 50%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.destination h2 {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.destination p {
+    max-width: 300px;
+    padding: 10px;
+    text-align: left;
+}
+
+
+#btn4 {
+    color: #000;
+    padding: 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+
+
 }
